@@ -21,10 +21,11 @@
 */
 
 
-
+#if !EOS_DISABLE
 using System;
 using Epic.OnlineServices.Auth;
 using System.Runtime.InteropServices;
+#endif //!EOS_DISABLE
 
 #if UNITY_IOS && !UNITY_EDITOR
 public static class EOS_iOSLoginOptionsHelper
